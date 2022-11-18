@@ -40,7 +40,7 @@ top: 0px;
 
 .bible-study,
 .photo-cred,
-a {
+.photo-cred a {
   color: white;
 }
 
@@ -68,7 +68,7 @@ a {
   font-family: Maven Pro, Arial, Helvetica, sans-serif;
   font-weight: 200;
   position: relative;
-  bottom: 10vh;
+  bottom: 20vh;
   right: 7vw;
 }
 
@@ -79,26 +79,19 @@ a {
   font-family: Maven Pro, Arial, Helvetica, sans-serif;
   font-weight: 200;
   position: relative;
-  bottom: 7vh;
+  bottom: 13vh;
   right: 7vw;
 }
 
 .bible-study-form {
   position: relative;
   right: 7vw;
+  bottom: 10vh;
   background-color: #F6F7F8;
   border: 1px solid #D6D9DC;
   border-radius: 3px;
   padding: 50px;
-  margin: 0 0 40px 0;
-  width: 60vw;
-}
-
-.form-row {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  flex-wrap: wrap;
+  width: 45vw;
 }
 
 .form-row input[type='text'],
@@ -108,22 +101,54 @@ a {
   background-color: #FFFFFF;
   border: 1px solid #D6D9DC;
   border-radius: 3px;
-  width: 100%;
+  width: 20vw;
   padding: 7px;
   font-size: 14px;
   margin-bottom: 40px;
 }
 
 .form-row label {
-  text-align: right;
-  width: 120px;
-  margin-top: 7px;
-  padding-right: 20px;
+  display: block;
+  position: relative;
+  width: 140px;
+  font-family: Maven Pro, Arial, Helvetica, sans-serif;
 }
 
 .name,
 .emailPhone,
 .passwords {
   display: flex;
+  gap: 50px;
 }
 
+.button button {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Maven Pro, Arial, Helvetica, sans-serif;
+
+  color: #FFFFFF;
+  background-color: #5995DA;
+
+  border: none;
+  border-radius: 3px;
+
+  padding: 10px 40px;
+  cursor: pointer;
+  position: relative;
+  bottom: 7vh;
+  right: 7vw;
+}
+
+.button button:hover {
+  background-color: #76AEED;
+}
+
+.button button:active {
+  background-color: #407FC7;
+}
+.paragraph-3 {
+  font-family: Maven Pro, Arial, Helvetica, sans-serif;
+  position: relative;
+  bottom: 4vh;
+  right: 7vw;
+}
