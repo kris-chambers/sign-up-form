@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./reset.css" rel="stylesheet" />
   <link href="./style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet"> 
   <title>Sign-up Form</title>
 </head>
 <body>
@@ -24,15 +27,37 @@
       <div class="right-top">
         <div class="paragraph-1">
           <p>This is not a real bible study! You know that you need something
-            like this in your life to help you realize your deepest dreams. Sign
-            up <em>now</em> to get started.</p>
+            like this in your life to help you realize your deepest dreams.
+            <br>Sign up <em>now</em> to get started.</p>
         </div>
         <div class="paragraph-2">
-          <p>You <em>know</em> you want to and we would <em>love</em>
-            to have you.</p>
+          <p>You <em>know</em> you want to.
         </div>
       </div>
-      <div class="form"></div>
+      <div class="form">
+        <form action='' method='get' class='bible-study-form'>
+          <div class="form-row">
+            <div class="name">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first-name">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last-name">
+            </div>
+            <div class="emailPhone">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email">
+              <label for="phone-number">Phone Number</label>
+              <input type="tel" id="phone-number" name="phone-number">
+            </div>
+            <div class="passwords">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password">
+              <label for="confirm-password">Confirm Password</label>
+              <input type="password" id="confirm-password" name="confirm-password">
+            </div>
+          </div>
+        </form>
+      </div>
       <div class="button"></div>
       <div class="paragraph-3">
         <p>This is a placeholder for paragraph 3.</p>
